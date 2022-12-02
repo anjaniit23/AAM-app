@@ -10,50 +10,25 @@ import {
 } from 'react-native';
 
 const App = () => {
-  const [email, onChangeEmail] = React.useState(null);
-  const [password, onChangePassword] = React.useState(null);
-
   return (
     <View style={styles.container}>
-      <Image
-        style={{
-          resizeMode: 'contain',
-          height: 200,
-          width: 350,
-          marginTop: 30,
-        }}
-        source={require('../images/main-login.png')}
-      />
-      <Text style={styles.text}>ANNUAL ALUMNI MEET</Text>
-      <Image
-        style={{
-          resizeMode: 'contain',
-          height: 100,
-          width: 100,
-        }}
-        source={require('../images/login-img.png')}
-      />
+      <Text style={styles.text}>Forgot Password</Text>
 
       <SafeAreaView>
-        <Text style={styles.email}>Email</Text>
+        <Text style={styles.email}>Enter Email</Text>
         <TextInput
           style={styles.input}
           placeholder="Email"
           placeholderTextColor="#003f5c"
-          onChangeText={onChangeEmail}
         />
-
-        <Text style={styles.email}>Password</Text>
+        <Text style={styles.email}>Enter the OTP sent on the email</Text>
         <TextInput
           style={styles.input}
-          placeholder="Password"
+          placeholder="OTP"
           placeholderTextColor="#003f5c"
-          secureTextEntry={true}
-          onChangeText={onChangePassword}
         />
       </SafeAreaView>
-      <Button style={styles.button} title="LOGIN" color="skyblue" />
-      <Text style={styles.texts1}>Forgot your password?</Text>
+      <Button style={styles.button} title="NEXT" color="skyblue" />
     </View>
   );
 };
@@ -80,18 +55,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'black',
   },
 
-  texts: {
-    fontSize: 22,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginBottom: 20,
-    textDecorationLine: 'underline',
-    color: 'grey',
-    paddingTop: 7,
-  },
-
   input: {
-    borderRadius: 20,
+    borderRadius: 13,
     height: 40,
     margin: 12,
     borderWidth: 1,
