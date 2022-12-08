@@ -1,0 +1,4 @@
+#Thu Dec 08 21:05:15 IST 2022
+base.0=C\:\\Users\\Debayan Biswas\\Desktop\\SAC APP FINAL CODE\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

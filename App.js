@@ -6,13 +6,12 @@ import Login from './screens/login';
 const App = ()=>{
   return (
    
-  <Login />
+    <NavigationContainer>
+    <Tabs />
+    </NavigationContainer>
     
     
   );
 }
 
 export default App;
-// // <NavigationContainer>
-// <Tabs />
-// </NavigationContainer>
