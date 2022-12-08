@@ -28,8 +28,11 @@ const App = () => {
       <Image
         style={{
           resizeMode: 'contain',
-          height: 100,
-          width: 100,
+          height: 50,
+          width: 50,
+          marginTop:20,
+          marginBottom:10,
+          marginLeft:150
         }}
         source={require('../images/login-img.png')}
       />
@@ -91,7 +94,7 @@ const styles = StyleSheet.create({
   },
 
   input: {
-    borderRadius: 20,
+    borderRadius: 13,
     height: 40,
     margin: 12,
     borderWidth: 1,

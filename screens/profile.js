@@ -11,15 +11,19 @@ TouchableRipple,
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
-const Profile = () => {
+const profile = () => {
   return (
    <>
   
+
+
+
+
   <SafeAreaView style={styles.container}> 
      <View style={styles.userInfoSection}>
        <View style={{flexDirection:'row',marginTop:30}}>
           <Avatar.Image style={{marginTop:40,marginRight:30}}
-             source={require('./assets/profile.png')}
+             source={require('../assets/profile.png')}
             size={90}
             />
         <View style={{marginLeft:10}}>
@@ -129,5 +133,6 @@ infoBox:{
 
 });
 
+export default profile;
 
-export default Profile;
+

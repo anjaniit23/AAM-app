@@ -1,57 +1,69 @@
 import * as React from 'react';
-import { Appbar} from 'react-native-paper';
-import {  ScrollView,StyleSheet,View,Text } from 'react-native';
-
+import {  SafeAreaView,ScrollView,StyleSheet,View,Text,Image } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 
 const Notification = () => {
   
   return (
+    <SafeAreaProvider>
     <ScrollView style={styles.container}>
-    <Appbar.Header>
-       <Appbar.Action icon="bell"  />
-      <Appbar.Content title="Notifications" />
-    </Appbar.Header>
+   
+    <View style={{flexDirection:'row'}}>
+    <Image
+        style={{
+          resizeMode: 'contain',
+          height: 30,
+          width: 30,
+          margin:10,
+          
+
+          
+        }}
+        source={require('../images/bell.png')}
+      />
+      <Text style={styles.headtext}>Notifications</Text>
+    </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text>Event:</Text>
-        <Text>Venue:</Text>
         <Text>                                               Time:</Text>
+        <Text>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text>Event:</Text>
-        <Text>Venue:</Text>
         <Text>                                               Time:</Text>
+        <Text>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text>Event:</Text>
-        <Text>Venue:</Text>
         <Text>                                               Time:</Text>
+        <Text>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text>Event:</Text>
-        <Text>Venue:</Text>
         <Text>                                               Time:</Text>
+        <Text>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text>Event:</Text>
-        <Text>Venue:</Text>
         <Text>                                               Time:</Text>
+        <Text>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text>Event:</Text>
-        <Text>Venue:</Text>
         <Text>                                               Time:</Text>
+        <Text>Venue:</Text>
       </View>
     </View>
     
@@ -60,6 +72,7 @@ const Notification = () => {
 
 
     </ScrollView>
+    </SafeAreaProvider>
   );
 };
 
@@ -87,6 +100,11 @@ const styles = StyleSheet.create({
     marginHorizontal: 18,
     marginVertical: 20,
   },
+  headtext:{
+    fontSize:30,
+    marignLeft:60,
+  },
+  
    
   
 });

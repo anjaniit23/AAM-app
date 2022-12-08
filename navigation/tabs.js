@@ -29,7 +29,7 @@ const Tabs = () => {
           tabBarIcon: ({focused}) => (
             <View>
               <Image
-                source={require('../assets/h4.webp')}
+                source={require('../assets/h4.jpg')}
                 resizeMode="contain"
                 style={{
                   width: 35,
@@ -48,7 +48,7 @@ const Tabs = () => {
           tabBarIcon: ({focused}) => (
             <View>
               <Image
-                source={require('../assets/h2.png')}
+                source={require('../assets/h2.webp')}
                 resizeMode="contain"
                 style={{
                   width: 30,
@@ -104,7 +104,7 @@ const Tabs = () => {
           tabBarIcon: ({focused}) => (
             <View>
               <Image
-                source={require('../assets/h1.png')}
+                source={require('../assets/h1.webp')}
                 resizeMode="contain"
                 style={{
                   width: 35,

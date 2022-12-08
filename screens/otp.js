@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginHorizontal: 16,
     padding: 5,
+   
     //  border:234 solid black,
   },
   text: {
@@ -44,6 +45,9 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     justifyContent: 'center',
+    marginBottom:32,
+    marginTop:34,
+    textAlign:'center',
   },
   button: {
     alignItems: 'center',
@@ -74,6 +78,7 @@ const styles = StyleSheet.create({
 
   email: {
     marginLeft: 23,
+    color: 'black',
   },
 });
 
