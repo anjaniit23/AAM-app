@@ -39,10 +39,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\android@@:react-native-community_masked-view::release"
-      jars="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\@react-native-community\masked-view\android\build\.transforms\c3cf1a543326981f809cf5bb1fbb85d1\transformed\out\jars\classes.jar"
+      name="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\android@@:react-native-community_masked-view::release"
+      jars="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\@react-native-community\masked-view\android\build\.transforms\f80624ab5041cd34bf7b502472880e40\transformed\out\jars\classes.jar"
       resolved="AwesomeProject1:react-native-community_masked-view:unspecified"
-      folder="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\@react-native-community\masked-view\android\build\.transforms\c3cf1a543326981f809cf5bb1fbb85d1\transformed\out"
+      folder="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\@react-native-community\masked-view\android\build\.transforms\f80624ab5041cd34bf7b502472880e40\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -52,10 +52,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\android@@:react-native-gesture-handler::release"
-      jars="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-gesture-handler\android\build\.transforms\e9682c30b1b0edbd8bda44b2e60807fb\transformed\out\jars\classes.jar"
+      name="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\android@@:react-native-gesture-handler::release"
+      jars="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-gesture-handler\android\build\.transforms\097126de0d25d701c0d489236ee85173\transformed\out\jars\classes.jar"
       resolved="AwesomeProject1:react-native-gesture-handler:unspecified"
-      folder="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-gesture-handler\android\build\.transforms\e9682c30b1b0edbd8bda44b2e60807fb\transformed\out"
+      folder="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-gesture-handler\android\build\.transforms\097126de0d25d701c0d489236ee85173\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -65,10 +65,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\android@@:react-native-reanimated"
-      jars="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-reanimated\android\build\.transforms\78990cab693118b646db016db9caaecb\transformed\jetified-react-native-reanimated-70-hermes\jars\classes.jar"
+      name="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\android@@:react-native-reanimated"
+      jars="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-reanimated\android\build\.transforms\66dc6570390e76f391d6fe1af317c02f\transformed\jetified-react-native-reanimated-70-hermes\jars\classes.jar"
       resolved="artifacts:react-native-reanimated:unspecified"
-      folder="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-reanimated\android\build\.transforms\78990cab693118b646db016db9caaecb\transformed\jetified-react-native-reanimated-70-hermes"
+      folder="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-reanimated\android\build\.transforms\66dc6570390e76f391d6fe1af317c02f\transformed\jetified-react-native-reanimated-70-hermes"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -78,10 +78,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\android@@:react-native-safe-area-context::release"
-      jars="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-safe-area-context\android\build\.transforms\ec55634a7807cdf4a7654d4853fd5875\transformed\out\jars\classes.jar"
+      name="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\android@@:react-native-safe-area-context::release"
+      jars="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-safe-area-context\android\build\.transforms\84032f83baee6fe62853a3b11b1595ae\transformed\out\jars\classes.jar"
       resolved="AwesomeProject1:react-native-safe-area-context:unspecified"
-      folder="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-safe-area-context\android\build\.transforms\ec55634a7807cdf4a7654d4853fd5875\transformed\out"
+      folder="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-safe-area-context\android\build\.transforms\84032f83baee6fe62853a3b11b1595ae\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -91,10 +91,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\android@@:react-native-screens::release"
-      jars="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-screens\android\build\.transforms\8e8f8460538bf610d3eda3feb1b3c4fc\transformed\out\jars\classes.jar"
+      name="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\android@@:react-native-screens::release"
+      jars="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-screens\android\build\.transforms\3f67fe1221db6c42209170488a976cc8\transformed\out\jars\classes.jar"
       resolved="AwesomeProject1:react-native-screens:unspecified"
-      folder="C:\Users\Debayan Biswas\Desktop\SAC APP FINAL CODE\node_modules\react-native-screens\android\build\.transforms\8e8f8460538bf610d3eda3feb1b3c4fc\transformed\out"
+      folder="C:\Users\Debayan Biswas\Desktop\SAC APP 8.12.2022\node_modules\react-native-screens\android\build\.transforms\3f67fe1221db6c42209170488a976cc8\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

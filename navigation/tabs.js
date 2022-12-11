@@ -4,6 +4,7 @@ import Accomodation from '../screens/accomodation';
 import Events from '../screens/events';
 import Profile from '../screens/profile';
 import Navigation from '../screens/navigation';
+import Notification from '../screens/notification';
 import {View, Image} from 'react-native';
 const Tab = createBottomTabNavigator();
 
@@ -61,7 +62,7 @@ const Tabs = () => {
       />
 
       <Tab.Screen
-        name="Home"
+        name="19th AAM"
         component={Home}
         options={{
           tabBarIcon: ({focused}) => (
@@ -80,13 +81,13 @@ const Tabs = () => {
       />
 
       <Tab.Screen
-        name="Navigation"
-        component={Navigation}
+        name="Notifications"
+        component={Notification}
         options={{
           tabBarIcon: ({focused}) => (
             <View>
               <Image
-                source={require('../assets/h3.webp')}
+                source={require('../images/bell.png')}
                 resizeMode="contain"
                 style={{
                   width: 35,

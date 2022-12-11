@@ -9,7 +9,7 @@ const Notification = () => {
     <SafeAreaProvider>
     <ScrollView style={styles.container}>
    
-    <View style={{flexDirection:'row'}}>
+    {/* <View style={{flexDirection:'row'}}>
     <Image
         style={{
           resizeMode: 'contain',
@@ -23,48 +23,48 @@ const Notification = () => {
         source={require('../images/bell.png')}
       />
       <Text style={styles.headtext}>Notifications</Text>
-    </View>
+    </View> */}
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text>Event:</Text>
-        <Text>                                               Time:</Text>
-        <Text>Venue:</Text>
+        <Text style={styles.textf}>Event:</Text>
+        <Text style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf}>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text>Event:</Text>
-        <Text>                                               Time:</Text>
-        <Text>Venue:</Text>
+        <Text  style={styles.textf}>Event:</Text>
+        <Text  style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf}>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text>Event:</Text>
-        <Text>                                               Time:</Text>
-        <Text>Venue:</Text>
+        <Text  style={styles.textf}>Event:</Text>
+        <Text  style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf}>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text>Event:</Text>
-        <Text>                                               Time:</Text>
-        <Text>Venue:</Text>
+        <Text  style={styles.textf}>Event:</Text>
+        <Text  style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf}>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text>Event:</Text>
-        <Text>                                               Time:</Text>
-        <Text>Venue:</Text>
+        <Text  style={styles.textf}>Event:</Text>
+        <Text style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf}>Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text>Event:</Text>
-        <Text>                                               Time:</Text>
-        <Text>Venue:</Text>
-      </View>
+        <Text  style={styles.textf}>Event:</Text>
+        <Text  style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf}>Venue:</Text>
+      </View >
     </View>
     
 
@@ -82,7 +82,7 @@ const Notification = () => {
 const styles = StyleSheet.create({
     
     container:{
-      backgroundColor:'#DFF6FF'
+      backgroundColor:'#fff'
     },
     card: {
      borderRadius: 6,
@@ -94,7 +94,8 @@ const styles = StyleSheet.create({
     shadowRadius: 10,
     marginHorizontal: 20,
     marginVertical: 10,
-    borderColor:'#47B5FF'
+    borderColor:'#47B5FF',
+    backgroundColor:'rgba(0,255,0,0.2)'
   },
   cardContent: {
     marginHorizontal: 18,
@@ -103,6 +104,12 @@ const styles = StyleSheet.create({
   headtext:{
     fontSize:30,
     marignLeft:60,
+    fontWeight:200,
+  },
+  textf:{
+    color: 'black',
+    fontWeight:'400'
+
   },
   
    

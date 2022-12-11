@@ -98,6 +98,8 @@ const styles = StyleSheet.create({
   },
   textTab: {
     fontSize: 16,
+    fontColor:'black',
+    fontWeight:'400',
   },
   btnTabActive: {
     //backgroundColor: '#E6838D',

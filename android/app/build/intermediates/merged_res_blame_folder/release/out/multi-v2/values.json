@@ -4,7 +4,7 @@
             "outputFile": "com.awesomeproject1.app-mergeReleaseResources-26:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Debayan Biswas\\Desktop\\SAC APP FINAL CODE\\android\\app\\build\\generated\\res\\resValues\\release\\values\\gradleResValues.xml",
+                    "source": "C:\\Users\\Debayan Biswas\\Desktop\\SAC APP 8.12.2022\\android\\app\\build\\generated\\res\\resValues\\release\\values\\gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -37,23 +37,6 @@
                         "endLines": "5976,6595",
                         "endColumns": "22,22",
                         "endOffsets": "347963,366621"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Debayan Biswas\\Desktop\\SAC APP FINAL CODE\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "52",
-                        "endOffsets": "65"
-                    },
-                    "to": {
-                        "startLines": "696",
-                        "startColumns": "4",
-                        "startOffsets": "44377",
-                        "endColumns": "52",
-                        "endOffsets": "44425"
                     }
                 },
                 {
@@ -162,6 +145,23 @@
                         "startOffsets": "40378",
                         "endColumns": "42",
                         "endOffsets": "40416"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Debayan Biswas\\Desktop\\SAC APP 8.12.2022\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "52",
+                        "endOffsets": "65"
+                    },
+                    "to": {
+                        "startLines": "696",
+                        "startColumns": "4",
+                        "startOffsets": "44377",
+                        "endColumns": "52",
+                        "endOffsets": "44425"
                     }
                 },
                 {
@@ -277,25 +277,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Debayan Biswas\\Desktop\\SAC APP FINAL CODE\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "273"
-                    },
-                    "to": {
-                        "startLines": "826",
-                        "startColumns": "4",
-                        "startOffsets": "59907",
-                        "endLines": "829",
-                        "endColumns": "12",
-                        "endOffsets": "60085"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Debayan Biswas\\.gradle\\caches\\transforms-3\\3cb37a6faf29ddf73604c194d6dae8fd\\transformed\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -331,6 +312,25 @@
                         "endLines": "24,4428,5602,5686",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1334,293537,334136,338652"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Debayan Biswas\\Desktop\\SAC APP 8.12.2022\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "826",
+                        "startColumns": "4",
+                        "startOffsets": "59907",
+                        "endLines": "829",
+                        "endColumns": "12",
+                        "endOffsets": "60085"
                     }
                 },
                 {

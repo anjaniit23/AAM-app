@@ -11,25 +11,20 @@ TouchableRipple,
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
-const profile = () => {
+const Profile = () => {
   return (
    <>
-  
-
-
-
-
   <SafeAreaView style={styles.container}> 
      <View style={styles.userInfoSection}>
        <View style={{flexDirection:'row',marginTop:30}}>
-          <Avatar.Image style={{marginTop:40,marginRight:30}}
+          <Avatar.Image style={{marginTop:0,marginRight:10}}
              source={require('../assets/profile.png')}
             size={90}
             />
         <View style={{marginLeft:10}}>
           <Title style={[styles.title,
           {
-            marginTop:60
+            marginTop:20
             ,
             marginBottom:5
           }]}> Lorem Ispum </Title>
@@ -41,19 +36,19 @@ const profile = () => {
 
   <View style={styles.userInfoSection}>
     <View style={styles.row}>
-      <Icon name="map-marker-radius" color="#777777" size={35} style={{marginTop:0}}/>
+      {/* <Icon name="map-marker-radius" color="#777777" size={35} style={{marginTop:0}}/> */}
       <Text style={{color:"#777777",marginLeft:25,marginTop:5}}>Address</Text> 
     </View>
     <View style={styles.row}>
-      <Icon name="phone" color="#777777" size={35} style={{marginTop:0}}/>
+      {/* <Icon name="phone" color="#777777" size={35} style={{marginTop:0}}/> */}
       <Text style={{color:"#777777",marginLeft:25,marginTop:5}}>+91XXXXXXXXX</Text> 
     </View>
     <View style={styles.row}>
-      <Icon name="email" color="#777777" size={35} style={{marginTop:0}}/>
+      {/* <Icon name="email" color="#777777" size={35} style={{marginTop:0}}/> */}
       <Text style={{color:"#777777",marginLeft:25,marginTop:5}}>hvbhjsbjbs@hjsb</Text> 
     </View>
     <View style={styles.row}>
-      <Icon name="home" color="#777777" size={35} style={{marginTop:0}}/>
+      {/* <Icon name="home" color="#777777" size={35} style={{marginTop:0}}/> */}
       <Text style={{color:"#777777",marginLeft:25,marginTop:5}}>Technology Guest House</Text> 
     </View>
  </View>
@@ -133,6 +128,6 @@ infoBox:{
 
 });
 
-export default profile;
+export default Profile;
 
 

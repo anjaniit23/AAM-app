@@ -10,10 +10,21 @@ const Home = () => {
       </View>
       <Text style={styles.para}>
         Thank you for registering with us.Hope you reunite with your old
+        memories and enjoy this meet Thank you for registering with us.Hope you reunite with your old
         memories and enjoy this meet
       </Text>
       <View>
       <Text style={styles.alum}>Events</Text>
+      </View>
+      <View style={styles.second}>
+        <View style={styles.first}>
+        <Image source={require('../images/a1.webp')} style={styles.img}/>
+        <Text style={styles.imp}>ARENA</Text>
+        </View>
+        <View style={styles.first1}>
+          <Image source={require('../images/illu1.webp')} style={styles.img} />
+        <Text style={styles.imp}>ILLUMINATION</Text>
+        </View> 
       </View>
       <View style={styles.second}>
         <View style={styles.first}>
@@ -40,22 +51,24 @@ const styles = StyleSheet.create({
   },
   blue: {
     marginLeft:40,
-    marginTop:70,
-    fontSize:20,
+    marginTop:15,
+    fontSize:25,
+    color: 'black',
+    fontWeight:'400'
   },
   para: {
     marginLeft:40,
     marginTop:40,
     fontSize:18,
     marginRight:40,
-    fontWeight:'600',
-    color:'rgb(0,0,0,0.1)',
+    fontWeight:'500',
+    color:'black',
   },
   alum:{
     marginTop:40,
     marginLeft:40,
     marginRight:20,
-    fontSize:20,
+    fontSize:30,
     fontWeight:'bold',
     color:'black',
   },
@@ -65,7 +78,7 @@ const styles = StyleSheet.create({
     backgroundColor:'rgba(0,255,0,0.2)',
     marginTop:20,
     marginLeft:40,
-    marginRight:25,
+    
     borderRadius:20,
   },
   first1:{
@@ -74,7 +87,7 @@ const styles = StyleSheet.create({
     backgroundColor:'rgba(180,200,120,0.3)',
     marginTop:20,
     marginLeft:25,
-    marginRight:25,
+   
     borderRadius:20,
   },
   second:{
