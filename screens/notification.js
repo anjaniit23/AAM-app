@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {  SafeAreaView,ScrollView,StyleSheet,View,Text,Image } from 'react-native';
+import {  SafeAreaView,ScrollView,StyleSheet,View,Text,Image ,Button, Linking,} from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 
@@ -24,11 +24,18 @@ const Notification = () => {
       />
       <Text style={styles.headtext}>Notifications</Text>
     </View> */}
+    
+    <View style={styles.buttonContainer}>
+    <Button title="Map" onPress={() => {
+                    Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
+        }} color="" />
+               
+    </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text style={styles.textf}>Event:</Text>
         <Text style={styles.textf}>                                               Time:</Text>
-        <Text  style={styles.textf}>Venue:</Text>
+        <Text  style={styles.textf} >Venue:</Text>
       </View>
     </View>
     <View style={styles.card}>
@@ -67,10 +74,7 @@ const Notification = () => {
       </View >
     </View>
     
-
-
-
-
+   
     </ScrollView>
     </SafeAreaProvider>
   );
@@ -111,9 +115,15 @@ const styles = StyleSheet.create({
     fontWeight:'400'
 
   },
+  buttonContainer: {
+    margin: 10
+  },
   
    
   
 });
 
 export default Notification;
+
+//https://www.google.com/maps?q=iit+kharagpur&sa=X&ved=2ahUKEwi5kvrlkvn7AhVc6jgGHXM2CdMQ0pQJegQICBAB
+//https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB
