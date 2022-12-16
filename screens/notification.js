@@ -25,54 +25,63 @@ const Notification = () => {
       <Text style={styles.headtext}>Notifications</Text>
     </View> */}
     
-    <View style={styles.buttonContainer}>
+    {/* <View style={styles.buttonContainer}>
     <Button title="Map" onPress={() => {
                     Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
         }} color="" />
                
+    </View> */}
+    <View style={styles.card}>
+      <View style={styles.cardContent}>
+        <Text style={styles.textf}>Event:</Text>
+        <Text style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf} >Venue:</Text><View style={styles.buttonContainer}><Button title="Map" onPress={() => {
+                    Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
+        }} color="rgba(0,255,0,0.2)" /></View>
+        
+      </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text style={styles.textf}>Event:</Text>
         <Text style={styles.textf}>                                               Time:</Text>
-        <Text  style={styles.textf} >Venue:</Text>
+        <Text  style={styles.textf} >Venue:</Text><View style={styles.buttonContainer}><Button title="Map" onPress={() => {
+                    Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
+        }} color="rgba(0,255,0,0.2)" /></View>
+        
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text  style={styles.textf}>Event:</Text>
-        <Text  style={styles.textf}>                                               Time:</Text>
-        <Text  style={styles.textf}>Venue:</Text>
-      </View>
-    </View>
-    <View style={styles.card}>
-      <View style={styles.cardContent}>
-        <Text  style={styles.textf}>Event:</Text>
-        <Text  style={styles.textf}>                                               Time:</Text>
-        <Text  style={styles.textf}>Venue:</Text>
-      </View>
-    </View>
-    <View style={styles.card}>
-      <View style={styles.cardContent}>
-        <Text  style={styles.textf}>Event:</Text>
-        <Text  style={styles.textf}>                                               Time:</Text>
-        <Text  style={styles.textf}>Venue:</Text>
-      </View>
-    </View>
-    <View style={styles.card}>
-      <View style={styles.cardContent}>
-        <Text  style={styles.textf}>Event:</Text>
+        <Text style={styles.textf}>Event:</Text>
         <Text style={styles.textf}>                                               Time:</Text>
-        <Text  style={styles.textf}>Venue:</Text>
+        <Text  style={styles.textf} >Venue:</Text><View style={styles.buttonContainer}><Button title="Map" onPress={() => {
+                    Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
+        }} color="rgba(0,255,0,0.2)" /></View>
+        
       </View>
     </View>
     <View style={styles.card}>
       <View style={styles.cardContent}>
-        <Text  style={styles.textf}>Event:</Text>
-        <Text  style={styles.textf}>                                               Time:</Text>
-        <Text  style={styles.textf}>Venue:</Text>
-      </View >
+        <Text style={styles.textf}>Event:</Text>
+        <Text style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf} >Venue:</Text><View style={styles.buttonContainer}><Button title="Map" onPress={() => {
+                    Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
+        }} color="rgba(0,255,0,0.2)" /></View>
+        
+      </View>
     </View>
+    <View style={styles.card}>
+      <View style={styles.cardContent}>
+        <Text style={styles.textf}>Event:</Text>
+        <Text style={styles.textf}>                                               Time:</Text>
+        <Text  style={styles.textf} >Venue:</Text><View style={styles.buttonContainer}><Button title="Map" onPress={() => {
+                    Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
+        }} color="rgba(0,255,0,0.2)" /></View>
+        
+      </View>
+    </View>
+
     
    
     </ScrollView>
@@ -115,8 +124,13 @@ const styles = StyleSheet.create({
     fontWeight:'400'
 
   },
+  
   buttonContainer: {
-    margin: 10
+    width:50,
+    fontColor:'black',
+    borderColor: 'transparent',
+    marginLeft:170,
+    
   },
   
    
