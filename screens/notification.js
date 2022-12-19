@@ -1,12 +1,15 @@
 import * as React from 'react';
-import {  SafeAreaView,ScrollView,StyleSheet,View,Text,Image ,Button, Linking,} from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import {  ScrollView,StyleSheet,View,Text,Image ,Button, Linking,} from 'react-native';
+
+
+
 
 
 const Notification = () => {
+
   
   return (
-    <SafeAreaProvider>
+
     <ScrollView style={styles.container}>
    
     {/* <View style={{flexDirection:'row'}}>
@@ -85,7 +88,6 @@ const Notification = () => {
     
    
     </ScrollView>
-    </SafeAreaProvider>
   );
 };
 
