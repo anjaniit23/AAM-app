@@ -8,7 +8,7 @@ Text,
 TouchableRipple,
  } from 'react-native-paper';
 
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+// import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
 const Profile = () => {
