@@ -37,8 +37,9 @@ com.awesomeproject1.app-merged_res-35 C:\Users\debay\Desktop\SAC APP_21.12.2003\
 com.awesomeproject1.app-debug-36 C:\Users\debay\Desktop\SAC APP_21.12.2003\android\app\src\debug\res
 com.awesomeproject1.app-main-37 C:\Users\debay\Desktop\SAC APP_21.12.2003\android\app\src\main\res
 com.awesomeproject1.app-packaged_res-38 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
-com.awesomeproject1.app-packaged_res-39 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\@react-native-firebase\app\android\build\intermediates\packaged_res\debug
-com.awesomeproject1.app-packaged_res-40 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\@react-native-firebase\messaging\android\build\intermediates\packaged_res\debug
-com.awesomeproject1.app-packaged_res-41 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
-com.awesomeproject1.app-packaged_res-42 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
-com.awesomeproject1.app-packaged_res-43 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
+com.awesomeproject1.app-packaged_res-39 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\@react-native-firebase\analytics\android\build\intermediates\packaged_res\debug
+com.awesomeproject1.app-packaged_res-40 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\@react-native-firebase\app\android\build\intermediates\packaged_res\debug
+com.awesomeproject1.app-packaged_res-41 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\@react-native-firebase\messaging\android\build\intermediates\packaged_res\debug
+com.awesomeproject1.app-packaged_res-42 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
+com.awesomeproject1.app-packaged_res-43 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
+com.awesomeproject1.app-packaged_res-44 C:\Users\debay\Desktop\SAC APP_21.12.2003\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug

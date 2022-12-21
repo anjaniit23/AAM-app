@@ -2,7 +2,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import Tabs from './navigation/tabs';
 import messaging from '@react-native-firebase/messaging';
 import { useEffect } from 'react';
-
+import firestore from '@react-native-firebase/firestore'
 
 const App = ()=>{
   const requestUserPermission=async() =>{
@@ -20,12 +20,36 @@ const App = ()=>{
 
   useEffect(() => {
     if(requestUserPermission()){
-      messaging().getToken().then((fcmtoken)=>{
-        console.log("FCM TOKEN -> ",fcmtoken);
-      });
+      messaging().getToken().then(token=>{
+        firestore().collection('usertoken').add({
+            token:token
+        })
+      })
+      sendNoti();
 
     }else console.log("Not Authorization status",authStatus);
   }, [])
+
+
+  const sendNoti = ()=>{
+    firestore().collection('usertoken').get().then(querySnap=>{
+     const userDevicetoken =  querySnap.docs.map(docSnap=>{
+            return docSnap.data().token
+        })
+        console.log(userDevicetoken)
+        // fetch('',{
+        //     method:'post',
+        //     headers: {
+        //         'Content-Type': 'application/json'
+                 
+        //       },
+    //         body:JSON.stringify({
+    //             tokens:userDevicetoken
+    //         })   
+    //     })
+    })
+}
+  
   
   
   return (
