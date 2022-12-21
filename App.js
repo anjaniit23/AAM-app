@@ -25,30 +25,33 @@ const App = ()=>{
             token:token
         })
       })
-      sendNoti();
+      sendNoti()
 
     }else console.log("Not Authorization status",authStatus);
   }, [])
-
-
-  const sendNoti = ()=>{
+  const  sendNoti = ()=>{
     firestore().collection('usertoken').get().then(querySnap=>{
      const userDevicetoken =  querySnap.docs.map(docSnap=>{
             return docSnap.data().token
         })
         console.log(userDevicetoken)
-        // fetch('',{
-        //     method:'post',
-        //     headers: {
-        //         'Content-Type': 'application/json'
+        fetch('https://8c31-202-142-65-225.in.ngrok.io/send-noti',{
+            method:'post',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
                  
-        //       },
-    //         body:JSON.stringify({
-    //             tokens:userDevicetoken
-    //         })   
-    //     })
+              },
+              
+            body:JSON.stringify({
+                tokens:userDevicetoken
+            })   
+        })
     })
-}
+  }
+
+
+
   
   
   
