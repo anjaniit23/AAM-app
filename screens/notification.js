@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {  ScrollView,StyleSheet,View,Text,Image ,Button, Linking,} from 'react-native';
-
+import messaging from '@react-native-firebase/messaging';
+import { useEffect } from 'react';
+import firestore from '@react-native-firebase/firestore'
 
 
 
@@ -29,11 +31,10 @@ const Notification = () => {
     </View> */}
     
     {/* <View style={styles.buttonContainer}>
-    <Button title="Map" onPress={() => {
-                    Linking.openURL(`https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`)
-        }} color="" />
+    <Button title="Map" onPress={() => sendNoti()}/>
                
     </View> */}
+    
     <View style={styles.card}>
       <View style={styles.cardContent}>
         <Text style={styles.textf}>Event:</Text>
