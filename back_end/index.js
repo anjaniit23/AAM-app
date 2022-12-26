@@ -11,6 +11,8 @@ admin.initializeApp({
 });
 app.post('/send-noti',(req,res)=>{
     console.log(req.body)
+    console.log(req.body.name)
+    // console.log(req.titleN)
 //    const message = {
 //     notification:{
 //         title:"new ad",
@@ -18,12 +20,24 @@ app.post('/send-noti',(req,res)=>{
 //     },
 //     tokens:req.body.tokens
 // }
+// const message = {
+//     notification:{
+//         title:"new Notification",
+//         body:"new ad posted"
+//     },
+//     token:'fGgVuiogRJq9RKUc1cLLNH:APA91bGJsrpbLLnUKDIkXD5LYVCxWFl8Jv5kkGPlUwR1RSXhCpmgwh6x3OLNFzZA5SZAGUG5qjeh0oh30HribpHhpLBQ8xOTLkvSqsb2xZChqAtoT3MG6rqSgfiDijpJDVNRozi4CCAy'
+// }
+// admin.messaging().send(message).then(res=>{
+//     console.log("send success")
+// }).catch(err=>{
+//     console.log(err)
+// })
 for (var count = 0; count < req.body.tokens.length; count++){
 
     const message = {
         notification:{
-            title:"new Notification",
-            body:"new ad posted"
+            title:req.body.title,
+            body:req.body.subTitle,
         },
         token:req.body.tokens[count]
     }
@@ -67,7 +81,7 @@ for (var count = 0; count < req.body.tokens.length; count++){
 //         title:"new Notification",
 //         body:"new ad posted"
 //     },
-//     token:'e5HIsn0mToC2oCDzjREfuf:APA91bFVeqNMs3kV-RwJInoyT3dS7RxKZmOsphh4K9IKGvJceNc0Czc6l0AsoGX55SfLZ2TFVrh5u-tTvEIOMVJMx7FZ0sPF3Owaii1BEXg33jGyqQBqdKRxOg0IvyoWxvy4xAGtcrsX'
+//     token:'fGgVuiogRJq9RKUc1cLLNH:APA91bGJsrpbLLnUKDIkXD5LYVCxWFl8Jv5kkGPlUwR1RSXhCpmgwh6x3OLNFzZA5SZAGUG5qjeh0oh30HribpHhpLBQ8xOTLkvSqsb2xZChqAtoT3MG6rqSgfiDijpJDVNRozi4CCAy'
 // }
 // admin.messaging().send(message).then(res=>{
 //     console.log("send success")
