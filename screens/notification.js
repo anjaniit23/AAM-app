@@ -8,15 +8,14 @@ import {
   Button,
   Linking,
   TextInput,
-
+  FlatList,
+  TouchableOpacity,
 } from 'react-native';
 import messaging from '@react-native-firebase/messaging';
 import {useEffect} from 'react';
 import firestore from '@react-native-firebase/firestore';
 import {useState} from 'react';
 import {text} from 'express';
-
-
 
 // const sendNoti = () => {
 //   firestore()
@@ -61,11 +60,11 @@ const Notification = () => {
             Accept: 'application/json',
             'Content-Type': 'application/json',
           },
-  
+
           body: JSON.stringify({
             tokens: userDevicetoken,
-            title:text,//Event name
-            subTitle:text2,// Venue  and Time
+            title: text, //Event name
+            subTitle: text2, // Venue  andTime
           }),
         });
       });
@@ -89,45 +88,32 @@ const Notification = () => {
       <Text style={styles.headtext}>Notifications</Text>
     </View> */}
 
-
-
-
-
-
-
-
-
-
-      <Text>Notification Title</Text>
+      {/* <Text style={styles.textf}>Notification Title</Text>
       <TextInput
-         style={styles.input}
+        style={styles.input}
         placeholder="Notification Title"
         onChangeText={newText => setText(newText)}
         defaultValue={text}
       />
-      <Text>Notification Body</Text>
+      <Text style={styles.textf}>Notification Body</Text>
       <TextInput
-         style={styles.input}
+        style={styles.input}
         placeholder="Notification Title"
         onChangeText={newText2 => settext2(newText2)}
         defaultValue={text2}
-      />
+      /> */}
 
-      <View style={styles.buttonContainer}>
-        {/* <TextInput
-        style={{height: 40}}
-        placeholder="Type here the title!"
-        onChangeText={newTitle => setText(newTitle)}
-        defaultValue={title}
-    /> */}
+      {/* <View style={styles.buttonContainer1}>
         <Button title="Noti" onPress={() => sendNoti()} />
-      </View>
+      </View> */}
 
       <View style={styles.card}>
         <View style={styles.cardContent}>
-          <Text style={styles.textf}>Event:</Text>
-          <Text style={styles.textf}> Time:</Text>
-          <Text style={styles.textf}>Venue:</Text>
+          <View>
+            <Text style={styles.textf}>Event:</Text>
+            <Text style={styles.textf}>Time:</Text>
+            <Text style={styles.textf}>Venue:</Text>
+          </View>
           <View style={styles.buttonContainer}>
             <Button
               title="Map"
@@ -136,16 +122,18 @@ const Notification = () => {
                   `https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`,
                 );
               }}
-              color="rgba(0,255,0,0.2)"
+              color="#afbfe1"
             />
           </View>
         </View>
       </View>
       <View style={styles.card}>
         <View style={styles.cardContent}>
-          <Text style={styles.textf}>Event:</Text>
-          <Text style={styles.textf}> Time:</Text>
-          <Text style={styles.textf}>Venue:</Text>
+          <View>
+            <Text style={styles.textf}>Event:</Text>
+            <Text style={styles.textf}>Time:</Text>
+            <Text style={styles.textf}>Venue:</Text>
+          </View>
           <View style={styles.buttonContainer}>
             <Button
               title="Map"
@@ -154,16 +142,18 @@ const Notification = () => {
                   `https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`,
                 );
               }}
-              color="rgba(0,255,0,0.2)"
+              color="#afbfe1"
             />
           </View>
         </View>
       </View>
       <View style={styles.card}>
         <View style={styles.cardContent}>
-          <Text style={styles.textf}>Event:</Text>
-          <Text style={styles.textf}> Time:</Text>
-          <Text style={styles.textf}>Venue:</Text>
+          <View>
+            <Text style={styles.textf}>Event:</Text>
+            <Text style={styles.textf}>Time:</Text>
+            <Text style={styles.textf}>Venue:</Text>
+          </View>
           <View style={styles.buttonContainer}>
             <Button
               title="Map"
@@ -172,16 +162,18 @@ const Notification = () => {
                   `https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`,
                 );
               }}
-              color="rgba(0,255,0,0.2)"
+              color="#afbfe1"
             />
           </View>
         </View>
       </View>
       <View style={styles.card}>
         <View style={styles.cardContent}>
-          <Text style={styles.textf}>Event:</Text>
-          <Text style={styles.textf}> Time:</Text>
-          <Text style={styles.textf}>Venue:</Text>
+          <View>
+            <Text style={styles.textf}>Event:</Text>
+            <Text style={styles.textf}>Time:</Text>
+            <Text style={styles.textf}>Venue:</Text>
+          </View>
           <View style={styles.buttonContainer}>
             <Button
               title="Map"
@@ -190,16 +182,18 @@ const Notification = () => {
                   `https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`,
                 );
               }}
-              color="rgba(0,255,0,0.2)"
+              color="#afbfe1"
             />
           </View>
         </View>
       </View>
       <View style={styles.card}>
         <View style={styles.cardContent}>
-          <Text style={styles.textf}>Event:</Text>
-          <Text style={styles.textf}> Time:</Text>
-          <Text style={styles.textf}>Venue:</Text>
+          <View>
+            <Text style={styles.textf}>Event:</Text>
+            <Text style={styles.textf}>Time:</Text>
+            <Text style={styles.textf}>Venue:</Text>
+          </View>
           <View style={styles.buttonContainer}>
             <Button
               title="Map"
@@ -208,7 +202,7 @@ const Notification = () => {
                   `https://www.google.com/maps?q=kalidas+auditorium+iit+kharagpur&sa=X&ved=2ahUKEwj0o4bElPn7AhVn4DgGHWxwBJgQ0pQJegQICBAB`,
                 );
               }}
-              color="rgba(0,255,0,0.2)"
+              color="#afbfe1"
             />
           </View>
         </View>
@@ -219,24 +213,18 @@ const Notification = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
+    backgroundColor: '#F9F9F9',
   },
   card: {
-    borderRadius: 6,
-    elevation: 3,
-    backgroundColor: '#fff',
-    shadowOffset: {width: 1, height: 1},
-    shadowColor: '#333',
-    shadowOpacity: 0.3,
-    shadowRadius: 10,
     marginHorizontal: 20,
-    marginVertical: 10,
-    borderColor: '#47B5FF',
+    marginVertical: 20,
+
     backgroundColor: 'rgba(0,255,0,0.2)',
   },
   cardContent: {
-    marginHorizontal: 18,
     marginVertical: 20,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
   },
   headtext: {
     fontSize: 30,
@@ -246,14 +234,21 @@ const styles = StyleSheet.create({
   textf: {
     color: 'black',
     fontWeight: '400',
+    fontSize: 20,
   },
 
   buttonContainer: {
     width: 50,
+    borderColor: 'transparent',
+    borderRadius: 3,
+  },
+  buttonContainer1: {
+    width: 50,
     fontColor: 'black',
     borderColor: 'transparent',
-    marginLeft: 170,
+    marginLeft: 40,
   },
+
   input: {
     borderWidth: 1,
     borderColor: '#777',
@@ -261,7 +256,6 @@ const styles = StyleSheet.create({
     margin: 10,
     width: 200,
   },
-  
 });
 
 export default Notification;
