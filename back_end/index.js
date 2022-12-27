@@ -11,7 +11,8 @@ admin.initializeApp({
 });
 app.post('/send-noti',(req,res)=>{
     console.log(req.body)
-    // console.log(req.body.name)
+
+    // console.log(req.body.n
     // console.log(req.titleN)
 //    const message = {
 //     notification:{

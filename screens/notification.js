@@ -55,7 +55,7 @@ const Notification = () => {
           return docSnap.data().token;
         });
         console.log(userDevicetoken);
-        fetch('https://26ad-202-142-65-225.in.ngrok.io/send-noti', {
+        fetch('https://082e-202-142-65-225.in.ngrok.io/send-noti', {
           method: 'post',
           headers: {
             Accept: 'application/json',
