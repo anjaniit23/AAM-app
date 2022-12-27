@@ -223,8 +223,7 @@ const styles = StyleSheet.create({
   },
   cardContent: {
     marginVertical: 20,
-    flexDirection: 'row',
-    justifyContent: 'space-around',
+    marginLeft:20,
   },
   headtext: {
     fontSize: 30,

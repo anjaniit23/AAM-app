@@ -130,4 +130,3 @@ infoBox:{
 
 export default Profile;
 
-
